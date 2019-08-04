@@ -1,1 +1,1 @@
-# ZhORM
+# ZhORM : 是一个自定义的ORM框架
