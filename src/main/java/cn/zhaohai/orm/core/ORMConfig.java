@@ -55,7 +55,7 @@ public class ORMConfig {
 
     static {
         // 得到的classpath路径
-        classPath = Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource(ZhOrmConstant.SPRIT_CONSTANT)).getPath();
+        classPath = Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource(ZhOrmConstant.EMPTY_CONSTANT)).getPath();
         // 针对中文路径进行转码
         try {
             classPath = URLDecoder.decode(classPath, ZhOrmConstant.UTF_8_CONSTANT);
