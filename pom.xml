@@ -12,7 +12,7 @@
     <properties>
         <log4j.version>1.2.17</log4j.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <guava.version>28.0-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <lombok.version>1.18.8</lombok.version>
     </properties>
 
